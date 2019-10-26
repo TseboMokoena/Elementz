@@ -1,391 +1,923 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="img/favicon.png" type="image/png">
-        <title>Michael Blacks Photography</title>
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="vendors/linericon/style.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
-        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-        <link rel="stylesheet" href="vendors/animate-css/animate.css">
-        <!-- main css -->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-    </head>
-    <body>
-        
-        <!--================Header Menu Area =================-->
-        <header class="header_area">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container box_1620">
-                    <!-- Brand and toggle get grouped for better mobile display -->                    
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav menu_nav">
-							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
-							<li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                        </ul>                    
-                    </div> 
-                </div>
-            </nav>
-        </header>
-        <!--================Header Menu Area =================-->
-        
-        <!--================Home Banner Area =================-->
-        <section class="home_banner_area">
-            <div class="banner_inner d-flex align-items-center">
-            	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
-				<div class="container">
-					<div class="banner_content text-center">
-						<h2>Michael Blacks Photography</h2>
-						<p>Capturing the essence of everyday life</p>
-						<button id="galleryBtn" type="button" class="btn theme_btn">Explore Gallery</button>
-					</div>
-				</div>
-            </div>
-        </section>
-        <!--================End Home Banner Area =================-->
-        
-        <!--================Home Gallery Area =================-->
-        <section class="home_gallery_area p_120">
-        	<div class="container">
-        		<div class="isotope_fillter">
-        			<ul id="galleryList" class="gallery_filter list">
-						<li class="active" data-filter="*"><a href="#">All</a></li>
-						<li data-filter=".stu"><a href="#">Studio</a></li>
-						<li data-filter=".out"><a href="#">Outdoor</a></li>
-						<li data-filter=".mar"><a href="#">Maternity</a></li>
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>Michael Blacks Photography</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<link rel="stylesheet" href="vendors/animate-css/animate.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+	<!--================Header Menu Area =================-->
+	<header class="header_area">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container box_1620">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+					<ul class="nav navbar-nav menu_nav">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 					</ul>
-        		</div>
-        	</div>
-        	<div class="container box_1620">
-        		<div class="gallery_f_inner row imageGallery1">
-        			<div class="col-lg-3 col-md-4 col-sm-6 out">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-1-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-1-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 stu">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-2-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-2-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 out">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-3-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-3-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 out">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-4-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-4-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 stu">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-5-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-5-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 stu">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-6-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-6-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 stu">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-7-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-7-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 stu">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-8-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-8-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 out">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-9-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-9-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 out">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-10-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-10-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 out">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-11-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-11-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 out">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-12-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-12-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 mar">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-13-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-13-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 mar">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-14-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-14-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 mar">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-15-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-15-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 mar">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-16-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-16-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 stu">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-17-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-17-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 stu">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-18-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-18-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 stu">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-19-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-19-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 stu">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-20-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-20-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 stu">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-21-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-21-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 stu">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-22-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-22-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 stu">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-23-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-23-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 stu">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-24-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-24-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 stu">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-25-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-25-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 out">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-26-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-26-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 out">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-27-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-27-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 out">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-28-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-28-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 stu">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-29-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-29-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 stu">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-30-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-30-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 stu">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-31-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-31-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
-					</div>
-					<div class="col-lg-3 col-md-4 col-sm-6 stu">
-        				<div class="h_gallery_item">
-        					<img src="img/gallery/gallery-32-min.jpg" alt="">
-        					<div class="hover">
-        						<a class="light" href="img/gallery/gallery-full-32-min.jpg"><i class="fa fa-expand"></i></a>
-        					</div>
-        				</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!--================Header Menu Area =================-->
+
+	<!--================Home Banner Area =================-->
+	<section class="home_banner_area">
+		<div class="banner_inner d-flex align-items-center">
+			<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0"
+				data-background=""></div>
+			<div class="container">
+				<div class="banner_content text-center">
+					<h2>Michael Blacks Photography</h2>
+					<p>Capturing the essence of everyday life</p>
+					<button id="galleryBtn" type="button" class="btn theme_btn">Explore Gallery</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================End Home Banner Area =================-->
+
+
+
+	<section class="home_gallery_area p_120">
+		<div class="container">
+			<div class="isotope_fillter">
+				<ul id="galleryList" class="gallery_filter list">
+					<!-- <li class="active"data-filter="*"><a href="#">All</a></li> -->
+					<li class="active"data data-filter=".eve"><a href="#">Events</a></li>
+					<li data-filter=".out"><a href="#">Outdoor</a></li>
+					<li data-filter=".stu"><a href="#">Studio</a></li>
+					<li data-filter=".con"><a href="#">Conept</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="container box_1620">
+			<div class="gallery_f_inner row imageGallery1">
+
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-1.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-1.jpg"><i class="fa fa-expand"></i></a>
+						</div>
 					</div>
 				</div>
-          	</div>
-        </section>
-        <!--================End Home Gallery Area =================-->
-                     
-        <!--================Footer Area =================-->
-        <footer class="footer_area p_120">
-        	<div class="container">
-        		<div class="row footer_inner">
-        			<div class="col-lg-5 col-sm-6">
-        				<aside class="f_widget ab_widget">
-        					<div class="f_title">
-        						<h3>About Me</h3>
-        					</div>
-        					<p>I am a Johannesburg based photographer forever capturing the essence of everyday life.</p>
-        					<p>	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
-        				</aside>
-        			</div>
-        			<div class="col-lg-5 col-sm-6">
-        				<aside class="f_widget social_widget">
-        					<div class="f_title">
-        						<h3>Follow Me</h3>
-        					</div>
-        					<ul class="list">
-        						<li><a href="https://www.instagram.com/michaelblacks/" target="_blank"><i class="fa fa-instagram"></i>  @michaelblacks </a></li>
-        						<li><a href="https://www.facebook.com/michael.blacks" target="_blank"><i class="fa fa-facebook"></i>  Michael Blacks</a></li>
-        					</ul>
-        				</aside>
-        			</div>
-        		</div>
-        	</div>
-        </footer>
-        <!--================End Footer Area =================-->
-                    
-                
-        <!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="js/jquery-3.2.1.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/stellar.js"></script>
-        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
-        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-        <script src="vendors/isotope/isotope-min.js"></script>
-        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="js/mail-script.js"></script>
-		<script src="js/theme.js"></script>
 
-		<script>
-			$("#galleryBtn").click(function() {
-				$('html, body').animate({
-					scrollTop: $("#galleryList").offset().top
-				}, 1500);
-			});
-		</script>
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-2.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-2.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
 
-    </body>
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-3.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-3.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-4.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-4.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-5.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-5.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-6.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-6.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-7.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-7.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-8.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-8.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-9.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-9.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-10.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-10.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-11.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-11.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-12.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-12.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-13.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-13.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-14.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-14.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-15.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-15.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-16.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-16.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-17.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-17.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-18.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-18.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-19.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-19.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 con">
+					<div class="h_gallery_item">
+						<img src="img/gallery/concept-crop-20.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/concept-20.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-1.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-1.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-2.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-2.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-3.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-3.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-4.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-4.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-5.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-5.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-6.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-6.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-7.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-7.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-8.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-8.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-9.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-9.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-10.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-10.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-11.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-11.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-12.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-12.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-13.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-13.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-14.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-14.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-15.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-15.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-16.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-16.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-17.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-17.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-18.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-18.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-19.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-19.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-20.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-20.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-21.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-21.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-22.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-22.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-23.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-23.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-24.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-24.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 eve">
+					<div class="h_gallery_item">
+						<img src="img/gallery/events-crop-25.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/events-25.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-1.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-1.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-2.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-2.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-3.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-3.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-4.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-4.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-5.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-5.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-6.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-6.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-7.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-7.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-8.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-8.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-9.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-9.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-10.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-10.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-11.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-11.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-12.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-12.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-13.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-13.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-14.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-14.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-15.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-15.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-16.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-16.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-17.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-17.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-18.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-18.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-19.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-19.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 out">
+					<div class="h_gallery_item">
+						<img src="img/gallery/outdoor-crop-20.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/outdoor-20.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-1.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-1.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-2.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-2.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-3.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-3.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-4.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-4.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-5.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-5.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-6.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-6.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-7.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-7.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-8.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-8.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-9.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-9.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-10.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-10.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-11.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-11.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-12.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-12.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-13.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-13.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-14.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-14.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-15.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-15.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-16.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-16.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-17.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-17.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-18.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-18.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-19.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-19.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 stu">
+					<div class="h_gallery_item">
+						<img src="img/gallery/studio-crop-20.jpg" alt="">
+						<div class="hover">
+							<a class="light" href="img/gallery/studio-20.jpg"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<!--================Home Gallery Area =================-->
+
+	<!--================End Home Gallery Area =================-->
+
+	<!--================Footer Area =================-->
+	<footer class="footer_area p_120">
+		<div class="container">
+			<div class="row footer_inner">
+				<div class="col-lg-5 col-sm-6">
+					<aside class="f_widget ab_widget">
+						<div class="f_title">
+							<h3>About Me</h3>
+						</div>
+						<p>I am a Johannesburg based photographer forever capturing the essence of everyday life.</p>
+						<p> Copyright &copy;
+							<script>document.write(new Date().getFullYear());</script> All rights reserved | <a
+								href="https://colorlib.com" target="_blank">Colorlib</a></p>
+					</aside>
+				</div>
+				<div class="col-lg-5 col-sm-6">
+					<aside class="f_widget social_widget">
+						<div class="f_title">
+							<h3>Follow Me</h3>
+						</div>
+						<ul class="list">
+							<li><a href="https://www.instagram.com/michaelblacks/" target="_blank"><i
+										class="fa fa-instagram"></i> @michaelblacks </a></li>
+							<li><a href="https://www.facebook.com/michael.blacks" target="_blank"><i
+										class="fa fa-facebook"></i> Michael Blacks</a></li>
+						</ul>
+					</aside>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--================End Footer Area =================-->
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="vendors/lightbox/simpleLightbox.min.js"></script>
+	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="vendors/isotope/isotope-min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="js/theme.js"></script>
+
+	<script>
+		$("#galleryBtn").click(function () {
+			$('html, body').animate({
+				scrollTop: $("#galleryList").offset().top
+			}, 1500);
+		});
+	</script>
+
+</body>
+
 </html>
